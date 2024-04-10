@@ -5,11 +5,11 @@
 
 <%@include file="Header.jsp"%>
 
-<%
+ <%
 	String alertMessage = (String) request.getAttribute("alertMessage");
 %>
 <div class="container">
-	<h1>PHARMACIE MALAGASY</h1>
+	<h1>PHARMACIE MANAGEMENT</h1>
 	<p class="lead">Connectez-vous</p>
 	<%
 		if (alertMessage == "erreur") {
@@ -49,9 +49,9 @@
 
 	</form>
 </div>
-<!-- #container --><!-- jQuery -->
+
+
 	<script src="js/jquery-2.1.1.min.js"></script>
-	<!-- Bootstrap JS -->
 	<script src="js/bootstrap.min.js"></script>
 	</body>
-</html>
+</html> 
